@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* navbar */
+ body {
+    background-image: url(./assets/rm405-c04b_1.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+nav {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.list ul li {
+    display: inline-block;
+    padding: 0px 10px;
+
+}
+
+nav .logo img {
+    width: 130px;
+}
+
+.contact {
+    height: 20px;
+    text-align: end;
+    margin-right: 1px;
+}
+
+.contact div h2 {
+    font-size: 1em;
+}
+
+.contact div h3 {
+    font-size: .9em;
+}
+
+.list .contact {
+    margin-top: -60px;
+    display: flex;
+    padding-top: 3%;
+    margin-left: 387px;
+
+}
+
+nav .list {
+
+    padding-bottom: 40px;
+    border-bottom: 2px solid #fff;
+} 
+
+/* hero section */
+/* right section  */
+
+.hero-heading {
+    color: white;
+    text-align: left;
+    margin-top: 208px;
+    margin-left: 114px;
+    font-size: -webkit-xxx-large;
+}
+
+.button-large {
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 25px;
+    margin-top: 5%;
+    font-weight: bolder;
+    margin-left: 125px;
+} 
+
+/* left section */
+
+.card {
+    position: absolute;
+    top: 30%;
+    right: 9%;
+    color:#fff;
+    width: 200px;
+    background: rgb(48, 69, 86);
+    padding: 25px;
+
+}
+
+.line {
+    position: absolute;
+    top: 53%;
+    right: 15%;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.line {
+    width: 2px;
+    height: 80px;
+    background-color: #fff;
+}
+
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 30px;
+    position: absolute;
+}
+
+
+.card1 {
+    position: absolute;
+    top: 70%;
+    right: 28%;
+    color: #fff;
+    width: 200px;
+    background: rgb(48, 69, 86);
+    padding: 20px;
+
+}
+
+
+ .lines {
+    position: absolute;
+    top: 80%;
+    right: 21%;
+    z-index: -1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.lines {
+    width: 85px;
+    height: 2px;
+    background-color: #fff;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 30px;
+    position: absolute; 
+} 
+
+
+

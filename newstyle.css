@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(./assets/main\ img.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    width: 100vh;
+}
+
+
+
+/* nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: 100vw
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px
+}
+
+.list-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item{
+    margin-right: 20px;
+    list-style-type: none;
+    color: #fff;
+    border-bottom: 1px solid white;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    
+}
+.logo {
+    margin-top: 10px;
+    height: 230px;
+    width:230px;
+    margin-left: 10px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20rem;
+
+}
+
+.list-item{
+    list-style-type: none;
+    color:#fff;
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.contact-details{
+    color:#fff;
+    margin-top: -50px;
+    margin-left: 104px;
+    width: 138px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.line{
+width: 780px;
+    position: absolute;
+    background-color: #fff;
+    top: 110px;
+    right: 200px;
+    height: 2px;
+    border: none;
+}
+/* Hero-section */
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.hero-heading{
+ font-size: 40px;
+ color:#fff;
+ margin-top: 60px;
+ margin-left:  40px;
+}
+
+.button{
+    color:#fff;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 35px;
+    width:220px;
+    margin-left: 40px;
+    margin-top: 5rem;  
+}
+    
+/* Card-section */
+/* .card1{
+    color:#fff;
+    position: relative;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding-left: 20px;
+}
+    */
+    .card1{
+        position: relative;
+        width: 250px;
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 20px;
+        left:65rem;
+        bottom:30rem;
+        color: #fff;
+    }
+
+.line2{
+    position: relative;
+    background-color: rgb(199, 194, 194);
+    width:70px;
+    left:75rem;
+    bottom:27.8rem;
+    transform: rotate(90deg);
+    border:1px solid white;
+}
+.circle1 {
+    color:#fff;
+    position: relative;
+    left: 76.7rem;
+    bottom: 25.8rem;
+}
+.card2{
+    position: relative;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    left:50rem;
+    bottom:16rem;
+    color: #fff;
+}
+
+.line3{
+    position: relative;
+    background-color: rgb(143, 140, 140);
+    width:70px;
+    left:68rem;
+    bottom:23rem;
+    transform: rotate(0deg);
+    border:1px solid white;
+}
+.circle2 {
+    color:#fff;
+    position: relative;
+    left:72rem;
+    bottom:23.6rem;
+}
